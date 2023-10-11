@@ -33,7 +33,7 @@ class GameObject {
 
     this.speed.y += 1;
   }
-
+  // make the duck jump
   jump() {
     if (this.pos.y === canvas.height - 34) {
       this.speed.y = -20;
